@@ -38,7 +38,7 @@ function add (x,y){
 console.log(add(2,4));
 
 
-
+// commenting out bc this is breaking the code below???
 // function getPlayerUserName(username){
 //     username.toUpperCase()
 // };
@@ -90,21 +90,28 @@ console.log(maxOfThree(4, 5, 6));
 //3. Define a function, as a function declaration, isCharAVowel that takes a character as an argument and returns true if it is a vowel, false otherwise.
 
 function isCharAVowel(letter) {
-    if (letter == "a") {
-        return true
-    } else if (letter == "e") {
-        return true
-    } else if (letter == "i") {
-        return true
-    } else if (letter == "o") {
-        return true
-    } else if (letter == "u") {
-        return true
-    } else if (letter == "y") {
+    if (letter == ("a" || "e" || "i" || "o" || "u" || "y")) {
         return true
     } else {
         return false
     }
+
+
+    // if (letter == "a") {
+    //     return true
+    // } else if (letter == "e") {
+    //     return true
+    // } else if (letter == "i") {
+    //     return true
+    // } else if (letter == "o") {
+    //     return true
+    // } else if (letter == "u") {
+    //     return true
+    // } else if (letter == "y") {
+    //     return true
+    // } else {
+    //     return false
+    // }
 
 }
 
