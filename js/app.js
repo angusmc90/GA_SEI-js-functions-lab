@@ -90,28 +90,31 @@ console.log(maxOfThree(4, 5, 6));
 //3. Define a function, as a function declaration, isCharAVowel that takes a character as an argument and returns true if it is a vowel, false otherwise.
 
 function isCharAVowel(letter) {
-    if (letter == ("a" || "e" || "i" || "o" || "u" || "y")) {
-        return true
-    } else {
-        return false
-    }
-
-
-    // if (letter == "a") {
-    //     return true
-    // } else if (letter == "e") {
-    //     return true
-    // } else if (letter == "i") {
-    //     return true
-    // } else if (letter == "o") {
-    //     return true
-    // } else if (letter == "u") {
-    //     return true
-    // } else if (letter == "y") {
+    /* 
+    ANGUS: THIS FIRST PART DID NOT WORK - WHY? 
+    */
+    // if (letter == ("a" || "e" || "i" || "o" || "u" || "y")) {
     //     return true
     // } else {
     //     return false
     // }
+
+
+    if (letter == "a") {
+        return true
+    } else if (letter == "e") {
+        return true
+    } else if (letter == "i") {
+        return true
+    } else if (letter == "o") {
+        return true
+    } else if (letter == "u") {
+        return true
+    } else if (letter == "y") {
+        return true
+    } else {
+        return false
+    }
 
 }
 
@@ -121,6 +124,17 @@ console.log(isCharAVowel(4));
 console.log(isCharAVowel("%"));
 
 //4. Define a function, as a function expression, sumArray that takes an array of numbers and returns the sum of those numbers. For example, sumArray([2, 4, 5]); would return 11.
+
+function sumArray(arr) {
+    let total = 0;
+    for (i == 0; i < arr.length; i++) {
+        total = total + arr[i]
+    }
+}
+
+console.log(sumArray([2,4,5]));
+console.log(sumArray([1,1,1]));
+console.log(sumArray([10,10,10]))
 
 //5. Define a function, as a function declaration, multiplyArray that takes an array of numbers and returns the product those numbers. For example, multiplyArray([2, 4, 5]); would return 40.
 
