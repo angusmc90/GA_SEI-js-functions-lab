@@ -39,14 +39,14 @@ console.log(add(2,4));
 
 
 
-function getPlayerUserName(username){
-    username.toUpperCase()
-};
+// function getPlayerUserName(username){
+//     username.toUpperCase()
+// };
 
-playerOne = getPlayerUserName();
-playerTwo = getPlayerUserName();
-playerThree = getPlayerUserName();
-playerFour = getPlayerUserName();
+// playerOne = getPlayerUserName();
+// playerTwo = getPlayerUserName();
+// playerThree = getPlayerUserName();
+// playerFour = getPlayerUserName();
 
 
 
