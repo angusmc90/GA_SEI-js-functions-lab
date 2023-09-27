@@ -7,13 +7,13 @@ console.log("My name is Angus")
 // to be used at a later time in the program
 function sayHello(personsName){
 	// write the code to say hello here
-    console.log("Hello ${personsName}")
+    console.log(`Hello ${personsName}`)
 }
 
 sayHello("Angus");
 
 function sayGoodbye(phrase, personsName){
-    console.log("${phrase}, ${personsName}")
+    console.log(`${phrase}, ${personsName}`)
 
 }
 
