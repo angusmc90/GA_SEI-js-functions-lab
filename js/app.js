@@ -84,10 +84,13 @@ function maxOfThree(num1, num2, num3) {
         return num3
     } else if (num1 == num2 && num2 == num3) {
         return "All of these numbers are equal"
+    } else {
+        return "what you doing girl?"
     }
     /*
     
-    how would i adjust this for if two of the numbers are equal but 
+    how would i adjust this for if two of the numbers are equal but not to the third?
+    this wouldnt account for this - add else option to acocunt for this
     
     */
 }
