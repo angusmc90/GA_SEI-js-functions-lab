@@ -127,7 +127,7 @@ console.log(isCharAVowel("%"));
 
 function sumArray(arr) {
     let total = 0;
-    for (i == 0; i < arr.length; i++) {
+    for (i = 0; i < arr.length; i++) {
         total = total + arr[i]
     }
 }
