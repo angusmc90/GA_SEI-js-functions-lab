@@ -5,9 +5,9 @@ console.log("My name is Angus")
 // declaring a function
 // creating the reusable block of code 
 // to be used at a later time in the program
-function sayHello(){
+function sayHello(personsName){
 	// write the code to say hello here
-    console.log("Hello world!")
+    console.log("Hello ${personsName}")
 }
 
-sayHello();
+sayHello(Angus);
