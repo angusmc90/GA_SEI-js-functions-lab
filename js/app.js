@@ -130,6 +130,7 @@ function sumArray(arr) {
     for (i = 0; i < arr.length; i++) {
         total = total + arr[i]
     }
+    return total
 }
 
 console.log(sumArray([2,4,5]));
