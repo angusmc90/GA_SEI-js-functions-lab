@@ -90,13 +90,23 @@ console.log(maxOfThree(4, 5, 6));
 //3. Define a function, as a function declaration, isCharAVowel that takes a character as an argument and returns true if it is a vowel, false otherwise.
 
 function isCharAVowel(letter) {
-    if (letter == ("a" || "e" || "i" || "o" || "u" || "y")){
+    if (letter == "a") {
+        return true
+    } else if (letter == "e") {
+        return true
+    } else if (letter == "i") {
+        return true
+    } else if (letter == "o") {
+        return true
+    } else if (letter == "u") {
+        return true
+    } else if (letter == "y") {
         return true
     } else {
         return false
     }
 
-};
+}
 
 console.log(isCharAVowel("u"));
 console.log(isCharAVowel("w"));
