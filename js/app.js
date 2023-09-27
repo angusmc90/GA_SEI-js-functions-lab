@@ -25,7 +25,7 @@ function sayGoodbye(phrase, personsName){
 // Goodbye, Chad
 // Peace, Frankie
 
-sayGoodbye(Adios, Laura);
-sayGoodbye(Chao, Becky);
-sayGoodbye(Goodbye, Chad);
-sayGoodbye(Peace, Frankie);
+sayGoodbye("Adios", "Laura");
+sayGoodbye("Chao", "Becky");
+sayGoodbye("Goodbye", "Chad");
+sayGoodbye("Peace", "Frankie");
