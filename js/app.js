@@ -92,7 +92,7 @@ function maxOfThree(num1, num2, num3) {
     */
 }
 
-console.log(maxOfThree(4, 5, 6));
+console.log(maxOfThree(2345, 53, 632453));
 
 //3. Define a function, as a function declaration, isCharAVowel that takes a character as an argument and returns true if it is a vowel, false otherwise.
 
