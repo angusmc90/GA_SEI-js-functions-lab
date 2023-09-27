@@ -11,3 +11,21 @@ function sayHello(personsName){
 }
 
 sayHello("Angus");
+
+function sayGoodbye(phrase, personsName){
+    console.log("${phrase}, ${personsName}")
+
+}
+
+// Define and call the function
+// sayGoodBye should accept two paramters, one phrase, and on personsName
+// add it logs a message
+// Adios, Laura
+// Chao, Becky
+// Goodbye, Chad
+// Peace, Frankie
+
+sayGoodbye(Adios, Laura);
+sayGoodbye(Chao, Becky);
+sayGoodbye(Goodbye, Chad);
+sayGoodbye(Peace, Frankie);
