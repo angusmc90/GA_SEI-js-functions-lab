@@ -80,9 +80,16 @@ function maxOfThree(num1, num2, num3) {
         return num1
     } else if (num2 > num1 && num2 > num3) {
         return num2
-    } else {
+    } else if (num3 > num1 && num3 > num2){
         return num3
+    } else if (num1 == num2 && num2 == num3) {
+        return "All of these numbers are equal"
     }
+    /*
+    
+    how would i adjust this for if two of the numbers are equal but 
+    
+    */
 }
 
 console.log(maxOfThree(4, 5, 6));
@@ -138,6 +145,8 @@ console.log(sumArray([1,1,1]));
 console.log(sumArray([10,10,10]))
 
 //5. Define a function, as a function declaration, multiplyArray that takes an array of numbers and returns the product those numbers. For example, multiplyArray([2, 4, 5]); would return 40.
+
+
 
 //6. Define a function, as a function expression, numArgs that returns the number of arguments passed to the function when called.
 
