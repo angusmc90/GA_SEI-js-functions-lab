@@ -175,9 +175,24 @@ function reverseString (word) {
     return word.split('').reverse().join('');
 }
 
-console.log("this one: " + reverseString("javascript"));
+console.log(reverseString("javascript"));
 
 //8. Define a function, as a function expression, longestStringInArray that takes an array of strings as an argument and returns the length of the longest string.
+
+function longestStringInArray(arr) {
+    let word = "";
+    for (i == 0; i < arr.length; i++) {
+        if (arr[i].length > word.length) {
+            word = arr[i]
+        } elseif (arr[i].length == word.length) {
+            console.log("Some of the words are the same length and Angus doesn't have time to code in how he'd want this function to handle this")
+        } else {
+            continue
+    }
+}
+
+console.log("this one: " + longestStringInArray(["one", "two", "three", "four"]));
+
 
 //9. Define a function, as a function declaration, stringsLongerThan that takes an array of strings and a number as arguments; and returns an array of the strings that are longer than the number passed in. For example, stringsLongerThan(['say', 'hello', 'in', 'the', 'morning'], 3); would return ["hello", "morning"].
 
