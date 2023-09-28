@@ -157,7 +157,7 @@ function multiplyArray(arr) {
     return total
 }
 
-console.log(sumArray([2,4,5]));
+console.log("this one " + sumArray([2,4,5]));
 
 
 //6. Define a function, as a function expression, numArgs that returns the number of arguments passed to the function when called.
