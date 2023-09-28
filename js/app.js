@@ -180,8 +180,8 @@ console.log(reverseString("javascript"));
 //8. Define a function, as a function expression, longestStringInArray that takes an array of strings as an argument and returns the length of the longest string.
 
 function longestStringInArray(arr) {
-    let word = "";
-    for (i == 0; i < arr.length; i++) {
+    let word = arr[0];
+    for (i = 1; i < arr.length; i++) {
         if (arr[i].length > word.length) {
             word = arr[i]
         } else if (arr[i].length == word.length) {
