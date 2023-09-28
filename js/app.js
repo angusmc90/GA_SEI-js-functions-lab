@@ -184,10 +184,11 @@ function longestStringInArray(arr) {
     for (i == 0; i < arr.length; i++) {
         if (arr[i].length > word.length) {
             word = arr[i]
-        } elseif (arr[i].length == word.length) {
+        } else if (arr[i].length == word.length) {
             console.log("Some of the words are the same length and Angus doesn't have time to code in how he'd want this function to handle this")
         } else {
             continue
+        }
     }
 }
 
