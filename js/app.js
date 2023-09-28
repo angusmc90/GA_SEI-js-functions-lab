@@ -181,6 +181,7 @@ console.log(reverseString("javascript"));
 
 function longestStringInArray(arr) {
     let word = arr[0];
+    // ithink leaving word as an empty string from the jump messed with it somehow? Or maybe starting from index 0instead of 1???
     for (i = 1; i < arr.length; i++) {
         if (arr[i].length > word.length) {
             word = arr[i]
