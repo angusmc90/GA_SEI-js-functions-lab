@@ -157,10 +157,17 @@ function multiplyArray(arr) {
     return total
 }
 
-console.log("this one " + multiplyArray([2,4,5]));
+console.log(multiplyArray([2,4,5]));
 
 
 //6. Define a function, as a function expression, numArgs that returns the number of arguments passed to the function when called.
+
+function numArgs() {
+    return arguments.length;
+}
+
+console.log("this one " + numArgs("sdfaev",4,true, [1,2,3,4,5]));
+
 
 //7. Define a function, as a function declaration, reverseString that takes a string, reverses the characters, and returns it. For example, reverseString('rockstar'); would return the string "ratskcor".
 
