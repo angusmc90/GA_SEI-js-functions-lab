@@ -190,6 +190,7 @@ function longestStringInArray(arr) {
             continue
         }
     }
+    return word;
 }
 
 console.log("this one: " + longestStringInArray(["one", "two", "three", "four"]));
