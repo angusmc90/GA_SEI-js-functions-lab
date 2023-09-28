@@ -171,7 +171,8 @@ console.log(numArgs("sdfaev",4,true, [1,2,3,4,5]));
 
 //7. Define a function, as a function declaration, reverseString that takes a string, reverses the characters, and returns it. For example, reverseString('rockstar'); would return the string "ratskcor".
 function reverseString (word) {
-    return word.reverse();
+    //take the string and split into an array, reverse it, and join it all
+    return word.split('').reverse().join('');
 }
 
 console.log("this one: " + reverseString("javascript"));
