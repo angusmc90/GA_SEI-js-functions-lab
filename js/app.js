@@ -166,10 +166,15 @@ function numArgs() {
     return arguments.length;
 }
 
-console.log("this one " + numArgs("sdfaev",4,true, [1,2,3,4,5]));
+console.log(numArgs("sdfaev",4,true, [1,2,3,4,5]));
 
 
 //7. Define a function, as a function declaration, reverseString that takes a string, reverses the characters, and returns it. For example, reverseString('rockstar'); would return the string "ratskcor".
+function reverseString (word) {
+    return word.reverse();
+}
+
+console.log("this one: " + reverseString("javascript"));
 
 //8. Define a function, as a function expression, longestStringInArray that takes an array of strings as an argument and returns the length of the longest string.
 
